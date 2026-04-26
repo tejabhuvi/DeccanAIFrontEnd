@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const API = 'http://localhost:5000/api'
+const API = 'https://deccanaibackend.onrender.com/api'
 
 const TYPE_META = {
   Practical:    { color: '#d97706', bg: '#fffbeb', border: '#fde68a', dot: '#f59e0b' },

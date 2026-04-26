@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const API = 'http://localhost:5000/api'
+const API = 'https://deccanaibackend.onrender.com/api'
 
 function UploadZone({ label, description, file, onFile, disabled, icon }) {
   const inputRef = useRef()
